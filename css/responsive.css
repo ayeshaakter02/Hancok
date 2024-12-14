@@ -1,0 +1,803 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    /* header start==================*/
+    /* navbar start==================*/
+    .togglebtn{
+        background: #FFFFFF;
+    }
+    .menubar{
+        background: #FF4655;
+    }
+    .navbar-nav{
+        text-align: center;
+        gap: 5px;
+    }
+    header nav .nav_icon .navbarright_ul {
+        justify-content: center;
+        margin: 10px 0;
+    }
+    header nav{
+        z-index: 999;
+    }
+    /* navbar end==================*/
+    /* banner start==================*/
+    header #banner {
+        padding: 150px 0 25px 0;
+    }
+    header #banner button {
+        margin-bottom: 25px;
+    }
+    header #banner h3 {
+        font-size: 18px;
+    }
+    header #banner h1 {
+        font-size: 36px;
+    }
+    header #banner h1::after {
+        display: none;
+    }
+    header #banner p {
+        width: auto;
+        font-size: 14px;
+    }
+    /* banner end==================*/
+    /* header end==================*/
+    /* about start==================*/
+    #about h2 {
+        width: auto;
+        font-size: 30px;
+    }
+    #about h2::after {
+        display: none;
+    }
+    #about .about-img{
+        width: 100%;
+    }
+    #about .text_area_part h3 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    #about .text_area_part ul li {
+        font-size: 16px;
+    }
+    #about .text_area_part p {
+        width: auto;
+        font-size: 14px;
+    }
+    #about .text_area_part button {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    #about .count {
+        padding: 25px 0;
+    }
+    #about .count .col-lg-3 .item h3 {
+        font-size: 36px;
+    }
+    #about .count .col-lg-3 .item p {
+        font-size: 14px;
+    }
+    #about .count .col-lg-3 .item {
+        padding: 10px 45px;
+        margin: 10px 0;
+    }
+    /* about end==================*/
+    /* popular game part start==================*/
+    #popular_game h2 {
+        width: auto;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    #popular_game h2::after {
+        display: none;
+    }
+    #popular_game img {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    #popular_game .image1 {
+        margin-top: 0;
+    }
+    #popular_game .image2 {
+        padding-top: 0;
+    }
+    #popular_game #prev-icon {
+        left:300px;
+        top: 500px;
+    }
+    #popular_game #next-icon {
+        left: 300px;
+        top: 550px;
+    }
+    /* popular game part end==================*/
+    /* live streamin part start==================*/
+    #live_streamin {
+        padding: 20px 0;
+    }
+    #live_streamin h2 {
+        width: auto;
+        font-size: 30px;
+    }
+    #live_streamin h2::after {
+        display: none;
+    }
+    #live_streamin .score h3 {
+        font-size: 20px;
+    }
+    #live_streamin .images {
+        width: 100%;
+    }
+    #live_streamin .score #left {
+        width: auto;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 0 10px;
+    }
+    #live_streamin .score #right {
+        width: auto;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 0 10px;
+    }
+    #live_streamin .score p {
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 18px;
+    }
+    #live_streamin .score h4 {
+        font-size: 24px;
+        margin: 10px;
+    }
+    #live_streamin .score .row {
+        justify-content: center;
+    }
+    /* live streamin part end==================*/
+    /* top game part start==================*/
+    #top_games h2 {
+        width: auto;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    #top_games h2::after {
+        display: none;
+    }
+    #top_games .row {
+        text-align: center;
+    }
+    #top_games .row h3 {
+        width: auto;
+        text-align: center;
+        font-size: 18px;
+        margin: 5px;
+    }
+    #top_games .row h4 {
+        font-size: 14px;
+    }
+    #top_games .row p {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    #top_games .container h5 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    /* top game part end==================*/
+    /* catalog part start==================*/
+    #catalog .container {
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #catalog .container h3 {
+        font-size: 14px;
+        padding-top: 25px;
+        padding-bottom: 5px;
+    }
+    #catalog .container h1 {
+        width: auto;
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    #catalog .container p {
+        width: auto;
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    #catalog .container button {
+        font-size: 14px;
+        padding: 2px 8px;
+    }
+    #catalog .container img {
+        width: 100%;
+        padding: 20px 0;
+    }
+    /* catalog part end==================*/
+    /* store part start==================*/
+    #store h2 {
+        width: auto;
+        font-size: 30px;
+        padding-top: 40px;
+        margin-bottom: 50px;
+    }
+    #store h2::after {
+        display: none;
+    }
+    #store .row{
+        justify-content: center;
+    }
+    #store p {
+        padding-bottom: 0;
+        padding-top: 8px;
+        font-size: 22px;
+    }
+    #store img{
+        width: auto;
+    }
+    #store h3 {
+        padding-top: 10px;
+        padding-bottom: 2px;
+        font-size: 18px;
+    }
+    #store h4 {
+        padding-bottom: 15px;
+        font-size: 14px;
+    }
+    #store #prev-icon {
+        top: 800px;
+    }
+    #store #next-icon {
+        top: 800px;
+    }
+    /* store part end==================*/
+    /* professional part start==================*/
+    #professional h1 {
+        width: auto;
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    #professional h1::after {
+        display: none;
+    }
+    #professional .team-details {
+        width: 100%;
+        top: 100px;
+        padding-left: 30px;
+    }
+    #professional .team-details h2 {
+        font-size: 20px;
+        padding-top: 25px;
+    }
+    #professional .team-details p {
+        width: auto;
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+    #professional .team-details button {
+        width: auto;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    #professional .detail {
+        width: 100%;
+        top: 180px;
+    }
+    #professional .all-images{
+        width: 100%;
+    }
+    #professional #team{
+        margin-top: 20px;
+    }
+    #professional #part2 {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    /* professional part end==================*/
+    /* frequently part start==================*/
+    #frequently h1 {
+        width: auto;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+    #frequently h1::after {
+        display: none;
+    }
+    .all-freq {
+        padding-bottom: 150px;
+    }
+    #frequently #first-row {
+        margin: 30px 0;
+    }
+    #frequently .row span {
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+    }
+    #frequently .main {
+        margin-left: 50px;
+    }
+    #frequently h2 {
+        font-size: 18px;
+    }
+    #frequently p {
+        width: auto;
+        font-size: 14px;
+    }
+    #frequently #col {
+        padding-left: 10px;
+    }
+    #frequently #second-row {
+        margin: 30px 0;
+    }
+    #frequently .all-freq::after {
+        display: none;
+    }
+    #frequently .all-freq::before {
+        display: none;
+    }
+    /* frequently part end==================*/
+    /* footer top part start==================*/
+    #footer-top {
+        width: auto;
+    }
+    #footer-top h1 {
+        width: auto;
+        padding: 15px;
+        font-size: 22px;
+    }
+    #footer-top input {
+        width: auto;
+        border-radius: 10px;
+        padding: 3px 20px 3px 8px;
+    }
+    #footer-top button {
+        width: auto;
+        padding: 3px 8px;
+        border-radius: 8px;
+    }
+    /* footer top part end==================*/
+    /* footer part start==================*/
+    footer p {
+        width: auto;
+        font-size: 14px;
+    }
+    footer .media {
+        gap: 5px;
+        margin-top: 20px;
+    }
+    footer .media #active {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    footer .media #icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    footer h2 {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    footer li {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    footer .footer-img {
+        width: 100%;
+        margin: 20px 0 30px 0;
+    }
+    footer h3 {
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 14px;
+        margin: 20px;
+    }
+    footer h3::after {
+        width: 300px;
+        height: 2px;
+        background: #666666;
+        position: absolute;
+        top: -15px;
+        margin-bottom: 15px;
+    }
+    /* footer part end==================*/
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* header start==================*/
+    /* navbar start==================*/
+    .togglebtn{
+        background: #FFFFFF;
+    }
+    .menubar{
+        background: #FF4655;
+    }
+    .navbar-nav{
+        text-align: center;
+        gap: 10px;
+    }
+    header nav .nav_icon .navbarright_ul {
+        justify-content: center;
+        margin: 10px 0;
+    }
+    header nav{
+        z-index: 999;
+    }
+    /* navbar end==================*/
+    /* banner start==================*/
+    header #banner {
+        padding: 200px 0 50px 0;
+    }
+    header #banner button {
+        margin-bottom: 30px;
+    }
+    header #banner h3 {
+        font-size: 24px;
+    }
+    header #banner h1 {
+        font-size: 38px;
+    }
+    header #banner h1::after {
+        display: none;
+    }
+    header #banner p {
+        width: auto;
+        font-size: 20px;
+    }
+    /* banner end==================*/
+    /* header end==================*/
+    /* about start==================*/
+    #about h2 {
+        width: auto;
+        font-size: 38px;
+    }
+    #about h2::after {
+        display: none;
+    }
+    #about .about-img{
+        width: 100%;
+    }
+    #about .text_area_part h3 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+    #about .text_area_part ul li {
+        font-size: 18px;
+    }
+    #about .text_area_part p {
+        width: auto;
+        font-size: 16px;
+    }
+    #about .text_area_part button {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    #about .count {
+        padding: 25px 0;
+    }
+    #about .count .col-lg-3 .item h3 {
+        font-size: 36px;
+    }
+    #about .count .col-lg-3 .item p {
+        font-size: 14px;
+    }
+    #about .count .col-lg-3 .item {
+        padding: 10px 45px;
+        margin: 10px 0;
+    }
+    /* about end==================*/
+    /* popular game part start==================*/
+    #popular_game h2 {
+        width: auto;
+        font-size: 38px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    #popular_game h2::after {
+        display: none;
+    }
+    #popular_game img {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    #popular_game .image1 {
+        margin-top: -50px;
+    }
+    #popular_game .image2 {
+        padding-top: 0;
+    }
+    #popular_game #prev-icon {
+        left:700px;
+        top: 1100px;
+    }
+    #popular_game #next-icon {
+        left: 700px;
+        top: 1150px;
+    }
+    /* popular game part end==================*/
+    /* live streamin part start==================*/
+    #live_streamin {
+        padding: 30px 0;
+    }
+    #live_streamin h2 {
+        width: auto;
+        font-size: 38px;
+    }
+    #live_streamin h2::after {
+        display: none;
+    }
+    #live_streamin .score h3 {
+        font-size: 26px;
+    }
+    #live_streamin .images {
+        width: 100%;
+    }
+    #live_streamin .score #left {
+        width: auto;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 0 30px;
+    }
+    #live_streamin .score #right {
+        width: auto;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 0 30px;
+    }
+    #live_streamin .score p {
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 22px;
+    }
+    #live_streamin .score h4 {
+        font-size: 28px;
+        margin: 10px;
+    }
+    #live_streamin .score .row {
+        justify-content: center;
+    }
+    /* live streamin part end==================*/
+    /* top game part start==================*/
+    #top_games h2 {
+        width: auto;
+        font-size: 38px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    #top_games h2::after {
+        display: none;
+    }
+    #top_games .row {
+        text-align: center;
+    }
+    #top_games .row h3 {
+        width: auto;
+        text-align: center;
+        font-size: 22px;
+        margin: 10px;
+    }
+    #top_games .row h4 {
+        font-size: 18px;
+    }
+    #top_games .row p {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    #top_games .container h5 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    /* top game part end==================*/
+    /* catalog part start==================*/
+    #catalog .container {
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    #catalog .container h3 {
+        font-size: 20px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    #catalog .container h1 {
+        width: auto;
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    #catalog .container p {
+        width: auto;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    #catalog .container button {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+    #catalog .container img {
+        width: 100%;
+        padding: 50px 0;
+    }
+    /* catalog part end==================*/
+    /* store part start==================*/
+    #store h2 {
+        width: auto;
+        font-size: 34px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+    #store h2::after {
+        display: none;
+    }
+    #store .row{
+        justify-content: center;
+    }
+    #store p {
+        padding-bottom: 0;
+        padding-top: 10px;
+        font-size: 26px;
+    }
+    #store img{
+        width: auto;
+    }
+    #store h3 {
+        padding-top: 15px;
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+    #store h4 {
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+    #store #prev-icon {
+        top: 400px;
+    }
+    #store #next-icon {
+        top: 400px;
+    }
+    /* store part end==================*/
+    /* professional part start==================*/
+    #professional h1 {
+        width: auto;
+        font-size: 38px;
+        padding: 50px 0;
+        text-align: center;
+    }
+    #professional h1::after {
+        display: none;
+    }
+    #professional .team-details {
+        width: auto;
+        top: 100px;
+    }
+    #professional .team-details h2 {
+        font-size: 24px;
+        padding-top: 15px;
+    }
+    #professional .team-details p {
+        width: auto;
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    #professional .team-details button {
+        width: auto;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    #professional .detail {
+        width: 100%;
+        top: 160px;
+    }
+    #professional .all-images{
+        width: 100%;
+    }
+    #professional #team1{
+        margin-bottom: 10px;
+    }
+    #professional #team{
+        margin-bottom: 10px;
+    }
+    #professional #part2 {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    /* professional part end==================*/
+    /* frequently part start==================*/
+    #frequently h1 {
+        width: auto;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    #frequently h1::after {
+        display: none;
+    }
+    .all-freq {
+        padding-bottom: 200px;
+    }
+    #frequently #first-row {
+        margin: 50px 0;
+    }
+    #frequently .row span {
+        width: 40px;
+        height: 40px;
+        font-size: 26px;
+    }
+    #frequently .main {
+        margin-left: 70px;
+    }
+    #frequently h2 {
+        font-size: 24px;
+    }
+    #frequently p {
+        width: auto;
+        font-size: 18px;
+    }
+    #frequently #col {
+        padding-left: 10px;
+    }
+    #frequently #second-row {
+        margin: 30px 0;
+    }
+    #frequently .all-freq::after {
+        display: none;
+    }
+    #frequently .all-freq::before {
+        display: none;
+    }
+    /* frequently part end==================*/
+    /* footer top part start==================*/
+    #footer-top {
+        width: auto;
+    }
+    #footer-top h1 {
+        width: auto;
+        padding: 30px;
+        font-size: 28px;
+    }
+    #footer-top input {
+        width: auto;
+        border-radius: 20px;
+        padding: 5px 25px 5px 10px;
+    }
+    #footer-top button {
+        width: auto;
+        padding: 5px 10px;
+        border-radius: 15px;
+    }
+    /* footer top part end==================*/
+    /* footer part start==================*/
+    footer p {
+        width: auto;
+        font-size: 20px;
+    }
+    footer .media {
+        gap: 10px;
+        margin-top: 30px;
+    }
+    footer .media #active {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    footer .media #icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    footer h2 {
+        margin-top: 40px;
+        font-size: 26px;
+    }
+    footer li {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    footer .footer-img {
+        width: 100%;
+        margin: 30px 0 40px 0;
+    }
+    footer h3 {
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 20px;
+        margin: 20px;
+    }
+    footer h3::after {
+        width: 800px;
+        height: 2px;
+        top: -25px;
+        margin-bottom: 25px;
+    }
+    /* footer part end==================*/
+}
